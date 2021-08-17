@@ -2,13 +2,28 @@
   "name": "@ria-develop/structures",
   "version": "1.0.0",
   "description": "A module for converting flat to tree and vice versa",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "types",
+  "esnext": {
+    "main": "src/index.ts"
   },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "files": [
+    "README.md",
+    "src",
+    "dist",
+    "types"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ria-develop/structures.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",

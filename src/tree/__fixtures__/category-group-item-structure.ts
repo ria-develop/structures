@@ -1,4 +1,4 @@
-import { generatorToArray } from '../utils';
+import { generatorToArray } from '../../utils';
 
 export const grouping: ['category', 'group', 'item'] = ['category', 'group', 'item'];
 

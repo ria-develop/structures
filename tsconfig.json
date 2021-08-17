@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "module": "UMD",
     "target": "ES5",
+    "declarationDir": "types",
+    "sourceMap": true,
+    "declaration": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "downlevelIteration": true,
@@ -9,6 +14,7 @@
   "exclude": [
     "node_modules",
     "**/*.test.ts",
-    "**/*.test.tsx"
+    "**/*.test.tsx",
+    "**/__fixtures__"
   ]
 }
