@@ -1,0 +1,35 @@
+{
+  "name": "@ria-develop/structures",
+  "version": "1.0.0",
+  "description": "A module for converting flat to tree and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ria-develop/structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ria-develop/structures/issues"
+  },
+  "homepage": "https://github.com/ria-develop/structures#readme",
+  "jest": {
+    "preset": "@ria-develop/jest-preset"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ria-develop"
+    ]
+  },
+  "devDependencies": {
+    "@ria-develop/eslint-config": "^1.0.3",
+    "@ria-develop/jest-preset": "^1.0.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}

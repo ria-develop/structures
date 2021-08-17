@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given category, group, item flat data provided should return the consistent tree structure 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "category": "Category 1",
+                "categoryId": "1",
+                "group": "Group 1",
+                "groupId": "1",
+                "item": "Item 1",
+                "itemId": "1",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 1",
+            },
+          ],
+          "type": 1,
+          "value": "Group 1",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "category": "Category 1",
+                "categoryId": "1",
+                "group": "Group 2",
+                "groupId": "2",
+                "item": "Item 1",
+                "itemId": "1",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 1",
+            },
+            Object {
+              "data": Object {
+                "category": "Category 1",
+                "categoryId": "1",
+                "group": "Group 2",
+                "groupId": "2",
+                "item": "Item 2",
+                "itemId": "2",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 2",
+            },
+          ],
+          "type": 1,
+          "value": "Group 2",
+        },
+      ],
+      "type": 1,
+      "value": "Category 1",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "category": "Category 2",
+                "categoryId": "2",
+                "group": "Group 1",
+                "groupId": "1",
+                "item": "Item 1",
+                "itemId": "1",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 1",
+            },
+            Object {
+              "data": Object {
+                "category": "Category 2",
+                "categoryId": "2",
+                "group": "Group 1",
+                "groupId": "1",
+                "item": "Item 2",
+                "itemId": "2",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 2",
+            },
+          ],
+          "type": 1,
+          "value": "Group 1",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "category": "Category 2",
+                "categoryId": "2",
+                "group": "Group 2",
+                "groupId": "2",
+                "item": "Item 1",
+                "itemId": "1",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 1",
+            },
+            Object {
+              "data": Object {
+                "category": "Category 2",
+                "categoryId": "2",
+                "group": "Group 2",
+                "groupId": "2",
+                "item": "Item 2",
+                "itemId": "2",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 2",
+            },
+          ],
+          "type": 1,
+          "value": "Group 2",
+        },
+      ],
+      "type": 1,
+      "value": "Category 2",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "data": Object {
+                "category": "Category 3",
+                "categoryId": "3",
+                "group": "Group 1",
+                "groupId": "1",
+                "item": "Item 1",
+                "itemId": "1",
+                "value": 100,
+              },
+              "type": 2,
+              "value": "Item 1",
+            },
+          ],
+          "type": 1,
+          "value": "Group 1",
+        },
+      ],
+      "type": 1,
+      "value": "Category 3",
+    },
+  ],
+  "type": 0,
+}
+`;
